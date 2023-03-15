@@ -1,0 +1,86 @@
+body{
+	font-family: Montserrat;
+	background-image: url("images/BSD.png");
+	background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+	margin: 0 20px 0 0;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+h1{
+	text-align: left;
+	font-weight: 500;
+	color: white;
+	padding: 0 0 0 200px;
+	margin: 50px 0 0 0;
+}
+
+.tulisan_login{
+	text-align: left;
+	color: white;
+}
+
+.kotak_login{
+	width: 500px;
+	margin: 0 20px 0 190px;
+	padding: 30px 15px;
+	border-radius: 30px;
+}
+
+label{
+	font-size: 11pt;
+	color: white;
+}
+
+.form_login{
+	
+	box-sizing : border-box;
+	width: 100%;
+	padding: 15px;
+	font-size: 11pt;
+	font-weight: 100;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.tombol_login{
+	background: #DD242C;
+	color: white;
+	font-size: 11pt;
+	width: 50%;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin-top: 15px;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
